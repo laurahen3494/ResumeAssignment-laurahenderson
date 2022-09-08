@@ -1,0 +1,59 @@
+/*---------Global styles-------------*/
+body{
+    color: #353535;
+}
+img {
+        width: 300px;
+}
+a{
+   color: #b5838d; 
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*---------profile-------------*/
+
+header{
+    background-color: #3c6e71;
+    color: rgb(241, 241, 241);
+}
+
+/*---------project-------------*/
+.projects{
+    background-color: #d9d9d9;
+}
+
+.projects a{
+    color: #d9d9d9;
+}
+.projects .btn{
+    color: #d9d9d9;
+    background: #b5838d;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.projects .btn:hover{
+    background: rgb(181, 131, 141, 80%);
+}
+/*---------work------------*/
+
+.workexperience{
+    background-color: #284b63;
+    color: rgb(241, 241, 241);
+}
+
+/*---------education-------------*/
+.educationexperince{
+    background-color: #d9d9d9;
+}
+
+/*---------footer-------------*/
+
+footer{
+    background-color: #353535;
+    color: rgb(241, 241, 241);
+}
+
