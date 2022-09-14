@@ -1,6 +1,17 @@
 /*---------Global styles-------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
 body{
     color: #353535;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 img {
         width: 300px;
@@ -11,11 +22,31 @@ a{
 a:hover{
     text-decoration: none;
 }
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+h2{ 
+ font-size: 45px;
+}
+
+h1, h2{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 2px 1px #8d626a;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
 
 /*---------profile-------------*/
 
 header{
-    background-color: #3c6e71;
+    background-color: #b5838d;
     color: rgb(241, 241, 241);
 }
 
@@ -29,14 +60,30 @@ header{
 }
 .projects .btn{
     color: #d9d9d9;
-    background: #b5838d;
+    background: c;
     text-decoration: none;
     padding: 8px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .projects .btn:hover{
     background: rgb(181, 131, 141, 80%);
+}
+
+.project-items img{
+    float: left;
+    margin-right: 20px;
+}
+
+.project-items{
+    overflow: hidden;
+    border-bottom: 1px dashed #284b63;
+    padding: 25px 0;
+}
+
+.project-items h3{
+    margin-top: 0;
 }
 /*---------work------------*/
 
